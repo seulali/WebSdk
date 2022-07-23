@@ -148,15 +148,15 @@ function login() {
         },
       };
   
-      const placementView = document.getElementById('placement1');
+      const placementView = document.getElementById('placement2');
       BuzzAdBenefit.registerNativeAd(nativeAd, placementView, adListener);
       renderAd(placementView, nativeAd);
-      const placementView2 = document.getElementById('placement2');
-      BuzzAdBenefit.registerNativeAd(nativeAd, placementView2, adListener);
-      renderAd(placementView2, nativeAd);
-      const placementView3 = document.getElementById('placement3');
-      BuzzAdBenefit.registerNativeAd(nativeAd, placementView3, adListener);
-      renderAd(placementView3, nativeAd);
+    //   const placementView2 = document.getElementById('placement2');
+    //   BuzzAdBenefit.registerNativeAd(nativeAd, placementView2, adListener);
+    //   renderAd(placementView2, nativeAd);
+    //   const placementView3 = document.getElementById('placement3');
+    //   BuzzAdBenefit.registerNativeAd(nativeAd, placementView3, adListener);
+    //   renderAd(placementView3, nativeAd);
     }
   })();
   
