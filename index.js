@@ -153,10 +153,10 @@ function login() {
       renderAd(placementView, nativeAd);
       const placementView2 = document.getElementById('placement2');
       BuzzAdBenefit.registerNativeAd(nativeAd, placementView2, adListener);
-      renderAd(placementView, nativeAd);
+      renderAd(placementView2, nativeAd);
       const placementView3 = document.getElementById('placement3');
       BuzzAdBenefit.registerNativeAd(nativeAd, placementView3, adListener);
-      renderAd(placementView, nativeAd);
+      renderAd(placementView3, nativeAd);
     }
   })();
   
